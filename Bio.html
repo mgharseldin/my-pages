@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Bio Page</title>
+<link rel="stylesheet" type="text/css" href="aboutMe.css">
+
+<style>
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: center;
+}
+
+header {background: #96858F;color:#D5D5D5;}
+footer {background: #6D7993;color:#D5D5D5;}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+<header>
+  <h1>My Bio</h1>
+
+
+</header>
+<pre>
+
+</pre>
+<div class="img">
+  <a target="_blank" href=".jpg">
+    <img src=".jpg"  width="200" height="100">
+  </a>
+  <div class="desc"></div>
+</div>
+
+<article class="article">
+  <h1>More About Me</h1>
+  <p>I loved art for many years..... Blah blah .........................................jowsfuspfjsdlsdksipsdisdigpsigpsigpsdoigpsdigspdoigsdpogidspoigsdop.</p>
+  <p>I will need to put lots of info here about my hobbies and history.... etc
+  .</p>
+  
+</article>
+</body>
+<footer> <FORM><INPUT Type="button" VALUE="Back" onClick="history.go(-1);return true;"></FORM></footer>
+</div>
+
+
+</html>
+
+
+
