@@ -1,5 +1,7 @@
 .loginform input:not([type=submit]) {
  
+
+ 
  
  input {
     width: 100%;
@@ -23,5 +25,24 @@
 .loginform li {
   display: inline;
   float: center;
+}
+ 
+body {
+    background-color: #96858F;
+}
+/* My Word Styling */
+
+h1 {
+    color: White;
+   text-align: center;
+}
+h2 {
+    color: #D5D5D5;
+   text-align: center;
+}
+
+p {
+    color: Maroon;
+   text-align: center;
 }
  
