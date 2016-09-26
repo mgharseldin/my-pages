@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+/* My General Background Color Style */
+
+body {
+    background-color: #96858F;
+}
+/* My Word Styling */
+
+h1 {
+    color: White;
+   text-align: center;
+}
+h2 {
+    color: #D5D5D5;
+   text-align: center;
+}
+
+p {
+    color: Maroon;
+   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* My Navigation Bar Style */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+/* This will show my Navigation as Active */
+.active {
+    background-color: #96858F;
+}
