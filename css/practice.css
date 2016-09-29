@@ -1,5 +1,5 @@
 .left-column, .right-column{
-  float:left;
+  float:center;
 }
 .left-column{
   width:30%; 
@@ -8,8 +8,8 @@
   width:60%; 
 }
 div{
-  padding:10px;
-  border:solid 1px black;
+  padding:20px;
+  border:solid 12px  #9099A2;
 }
 
 #container { display: table; }
@@ -17,3 +17,5 @@ div{
 #row { display: table-row; }
 
 #left, #right, #middle { display: table-cell; }
+
+}
